@@ -22,7 +22,7 @@
 
   
 
-  <title>泠鸢yousa | shuoma</title>
+  <title>烧烤 | shuoma</title>
 
   
 
@@ -38,9 +38,6 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
-<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
-<script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
 </head>
 <body>
   <div class="root-container">
@@ -107,20 +104,20 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">泠鸢yousa</h1>
+          <h1 class="title-wrap">烧烤</h1>
           <h2 class="title-sub-wrap">
             <strong>烁妈</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2022-07-07T08:31:49.000Z" itemprop="datePublished">2022-07-07</time>
+            <time  class="article-date" datetime="2022-07-12T14:18:07.000Z" itemprop="datePublished">2022-07-12</time>
           </h2>
           <ul class="wrap-list dark">
   
-    <li><a href="/categories/music/">📒 music</a></li>
+    <li><a href="/categories/%E9%AB%98%E4%B8%AD/">📒 高中</a></li>
   
 </ul>
           <ul class="wrap-list dark">
   
-    <li><a href="/tags/%E6%B3%A0%E9%B8%A2yousa/">🏷️ 泠鸢yousa</a></li>
+    <li><a href="/tags/play/">🏷️ play</a></li>
   
 </ul>
         </div>
@@ -144,17 +141,15 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        
-    <div id="aplayer-xvLYuWII" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="69909382" data-server="netease" data-type="playlist" data-mode=" circulation" data-autoplay="false" data-mutex="false" data-listmaxheight=" 340px" data-preload=" auto" data-theme="#FF4081"
-    ></div>
+        <div class="dplayer-box" data-url='https://s21.aconvert.com/convert/p3r68-cdx67/kaoo8-ocmuf.mp4' ></div>
 
-
+<div class="dplayer-box" data-url='https://s17.aconvert.com/convert/p3r68-cdx67/wphs5-tpaf1.mp4' ></div>
       </section>
 
       
       
         <nav class="article-nav">
+          
           
             <div class="article-nav-item layout-padding">
   <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
@@ -163,21 +158,6 @@
       
         <a href="/2022/07/10/%E9%AB%98%E4%BA%8C%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9/" itemprop="url">
           <h2 class="card-text--title text-ellipsis">高二的最后一天</h2>
-        </a>
-      
-      <div class="card-text--row">Newer</div>
-    </div>
-  </article>
-</div>
-          
-          
-            <div class="article-nav-item layout-padding">
-  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
-    
-    <div class="card-text">
-      
-        <a href="/2022/07/07/%E7%BA%AF%E9%9F%B3/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">纯音</h2>
         </a>
       
       <div class="card-text--row">Older</div>
@@ -383,6 +363,41 @@
 
 
 <!-- dplayer -->
+
+
+<!-- dplayer 视频 start -->
+<script type="text/javascript" src="https://unpkg.com/hls.js@1.0.1/dist/hls.js"></script>
+<script type="text/javascript" src="https://unpkg.com/dplayer@1.25.1/dist/DPlayer.min.js"></script>
+<script type="text/javascript">
+  const dplayer = document.querySelectorAll(".dplayer-box");
+  dplayer && initDPlayer(dplayer);
+  function initDPlayer(els) {
+    let elsArr = Array.from(els);
+    elsArr.forEach(el => {
+      let url = el.dataset.url;
+      let pic = el.dataset.pic;
+      let subtitle = el.dataset.subtitle;
+
+      let options = {
+        container: el,
+        video: { url: url, pic: pic },
+        theme: "#b7daff",
+        autoplay: false,
+        loop: false,
+        mutex: true,
+      }
+
+      if (subtitle) {
+        options.subtitle = {
+          url: el.dataset.subtitle,
+        }
+      }
+      new DPlayer(options);
+    });
+  }
+</script>
+<!-- dplayer 视频 end -->
+
 
 
 
