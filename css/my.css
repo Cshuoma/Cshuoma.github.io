@@ -1,1 +1,9 @@
 /* Here is your custom css styles. */
+@font-face{
+    font-family: 'xiaoxiangxingshu';
+    src: url('../diy-font/xiaoxiangxingshu.ttf');   
+}
+
+body {
+    font-family: 'xiaoxiangxingshu';
+}
