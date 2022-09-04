@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #FF7979 0%, #FF7979 100%); //修改成自己喜欢的颜色值
+    background-image: linear-gradient(to right, #FFBEBE 0%, #FF6C6C 100%); //修改成自己喜欢的颜色值
     opacity: 1;  //透明效果 值范围 0~1，看情况自己修改
 }
 
