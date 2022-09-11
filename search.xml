@@ -4,36 +4,25 @@
   
     
     <entry>
-      <title>Grasscutters</title>
-      <link href="/2022/09/10/Grasscutters/"/>
-      <url>/2022/09/10/Grasscutters/</url>
+      <title>机场推荐</title>
+      <link href="/2022/09/11/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90/"/>
+      <url>/2022/09/11/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一、要有一个客户端"><a href="#一、要有一个客户端" class="headerlink" title="一、要有一个客户端"></a>一、要有一个客户端</h2><p>若你想玩当前版本，请用官方的客户端，<br>如果你想玩超前或者之前版本的，请点击下面这个链接找到你所需的客户端版本<a href="https://github.com/kyou-nase/GI-Download-Library">genshin-inpact downlinks</a></p><hr><h2 id="二、请下载对应版本的补丁（2-8以前的版本可以不用）"><a href="#二、请下载对应版本的补丁（2-8以前的版本可以不用）" class="headerlink" title="二、请下载对应版本的补丁（2.8以前的版本可以不用）"></a>二、请下载对应版本的补丁（2.8以前的版本可以不用）</h2><p>补丁是核心，出现代码4214报错的都是补丁没打或者没有打好<br><a href="https://gblhgk.com/k1t6C">2.8补丁下载</a></p><hr><h2 id="三、需要安装以下必备软件"><a href="#三、需要安装以下必备软件" class="headerlink" title="三、需要安装以下必备软件"></a>三、需要安装以下必备软件</h2><ul><li><a href="https://gblhgk.com/gNCAa">MongoDB</a>：这个是数据库</li><li><a href="https://sjmwsw.com/upVqJ">phython</a>：环境</li><li><a href="https://gblhgk.com/mq3Lh">java17</a>：环境</li><li>代理软件：这里我推荐用<a href="https://sjmwsw.com/6F7MP">genshin代理助手</a>（即小可莉图标），无需安装证书，小白狂喜。</li></ul><hr><h2 id="四、需要一个服务端，即grasscutters"><a href="#四、需要一个服务端，即grasscutters" class="headerlink" title="四、需要一个服务端，即grasscutters"></a>四、需要一个服务端，即grasscutters</h2><p>这里只提供2.8版本的服务端，当前甚至超前的请加群或使用搜索引擎搜索<br><a href="https://sjmwsw.com/Auu0J">网盘地址</a></p><hr><h2 id="五、链接客户端"><a href="#五、链接客户端" class="headerlink" title="五、链接客户端"></a>五、链接客户端</h2><h3 id="打开顺序：MongoDB→服务端→genshin代理助手→客户端"><a href="#打开顺序：MongoDB→服务端→genshin代理助手→客户端" class="headerlink" title="打开顺序：MongoDB→服务端→genshin代理助手→客户端"></a>打开顺序：MongoDB→服务端→genshin代理助手→客户端</h3><p>注意：如果在本地打开客服务端，代理助手的填写应如下：<br>地址：<code>127.0.0.1</code><br>端口：<code>443</code></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>github+hexo博客搭建</title>
-      <link href="/2022/09/09/github-hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-      <url>/2022/09/09/github-hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="环境和github仓库创建"><a href="#环境和github仓库创建" class="headerlink" title="环境和github仓库创建"></a>环境和github仓库创建</h1><h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><p>首先下载稳定版<a href="">Node.js</a>，我这里给的是64位的。</p><p>安装选项全部默认，一路点击<code>Next</code>。</p><p>最后安装好之后，按<code>Win+R</code>打开命令提示符，输入<code>node -v</code>和<code>npm -v</code>，如果出现版本号，那么就安装成功了。</p><p>添加国内镜像源<br>如果没有梯子的话，可以使用阿里的国内镜像进行加速。</p><pre><code> npm config set registry https://registry.npm.taobao.org</code></pre><hr><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>为了把本地的网页文件上传到github上面去，我们需要用到分布式版本控制工具————Git<a href="">下载地址</a>。</p><p>安装选项还是全部默认，只不过最后一步添加路径时选择<code>Use Git from the Windows Command Prompt</code>，这样我们就可以直接在命令提示符里打开git了。</p><p>安装完成后在命令提示符中输入<code>git --version</code>验证是否安装成功。</p><h2 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册Github账号</h2><p>接下来就去注册一个github账号，用来存放我们的网站。大多数小伙伴应该都有了吧，作为一个合格的程序猿（媛）还是要有一个的。</p><p>打开<a href="https://github.com/">这里</a>，新建一个项目，如下所示：</p><p>然后如下图所示，输入自己的项目名字，后面一定要加<code>.github.io</code>后缀，README初始化也要勾上。<strong>名称一定要和你的github名字完全一样</strong>，比如你github名字叫<code>abc</code>，那么仓库名字一定要是<code>abc.github.io</code>。</p><p>然后项目就建成了，点击<code>Settings</code>，向下拉到最后有个<code>GitHub Pages</code>，点击<code>Choose a theme</code>选择一个主题。然后等一会儿，再回到<code>GitHub Pages</code>，会变成下面这样：</p><p>点击那个链接，就会出现自己的网页啦，效果如下：</p><h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><p>在合适的地方新建一个文件夹，用来存放自己的博客文件，比如我的博客文件都存放在D:\study\program\blog目录下。</p><p>在该目录下右键点击·<code>Git Bash Here</code>，打开git的控制台窗口，以后我们所有的操作都在git控制台进行，就不要用Windows自带的控制台了。</p><p>定位到该目录下，输入<code>npm i hexo-cli -g</code>安装Hexo。会有几个报错，无视它就行。</p><p>安装完后输入<code>hexo -v</code>验证是否安装成功。</p><p>然后就要初始化我们的网站，输入<code>hexo init</code>初始化文件夹，接着输入<code>npm install</code>安装必备的组件。</p><p>这样本地的网站配置也弄好啦，输入<code>hexo g</code>生成静态网页，然后输入<code>hexo s</code>打开本地服务器，然后浏览器打开<code>http://localhost:4000/</code>，就可以看到我们的博客啦，效果如下：</p><p>按<code>ctrl+C</code>关闭本地服务器。</p><p>连接Github与本地<br>首先右键打开git bash，然后输入下面命令：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"你的github名字"</span></span><br><span class="line">git config --global user.email <span class="string">"你创建github所用的邮箱"</span></span><br></pre></td></tr></tbody></table></figure><p>用户名和邮箱根据你注册github的信息自行修改。</p><p>然后生成密钥SSH key：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"你创建github所用的邮箱"</span></span><br></pre></td></tr></tbody></table></figure><p>打开github，在头像下面点击settings，再点击SSH and GPG keys，新建一个SSH，名字随便。</p><p>git bash中输入</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cat</span> ~/.ssh/id_rsa.pub</span><br></pre></td></tr></tbody></table></figure><p>将输出的内容复制到框中，点击确定保存。</p><p>输入<code>ssh -T git@github.com</code>，如果如下图所示，出现你的用户名，那就成功了。</p><p>打开博客根目录下的_config.yml文件，这是博客的配置文件，在这里你可以修改与博客相关的各种信息。</p><h2 id="修改最后一行的配置："><a href="#修改最后一行的配置：" class="headerlink" title="修改最后一行的配置："></a>修改最后一行的配置：</h2><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">   <span class="built_in">type</span>: git</span><br><span class="line">   repository: https://github.com/你的github名字/你的github名字.github.io</span><br><span class="line">   branch: master</span><br></pre></td></tr></tbody></table></figure><h2 id="写文章、发布文章"><a href="#写文章、发布文章" class="headerlink" title="写文章、发布文章"></a>写文章、发布文章</h2><p>首先在博客根目录下右键打开<code>git bash</code>，安装一个扩展<code>npm i hexo-deployer-git</code>。</p><p>然后输入<code>hexo new post "article title"</code>，新建一篇文章。</p><p>然后打开<code>D:\study\program\blog\source\_posts</code>的目录，可以发现下面多了一个文件夹和一个<code>.md</code>文件，一个用来存放你的图片等数据，另一个就是你的文章文件啦。</p><p>编写完markdown文件后，根目录下输入<code>hexo g</code>生成静态网页，然后输入<code>hexo s</code>可以本地预览效果，最后输入<code>hexo d</code>上传到github上。这时打开你的github.io主页就能看到发布的文章啦。</p><h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>现在默认的域名还是xxx.github.io，是不是很没有牌面？想不想弄一个专属域名呢？首先你得购买一个域名，xx云都能买，看你个人喜好了。</p><p>然后打开你的<code>github</code>博客项目，点击<code>settings</code>，拉到下面<code>Custom domain</code>处，填上你自己的域名，保存：</p><p>这时候你的项目根目录应该会出现一个名为<code>CNAME</code>的文件了。如果没有的话，打开你本地博客<code>/source目录</code>，我的是<code>D:\study\program\blog\source</code>，新建<code>CNAME</code>文件，注意没有后缀。然后在里面写上你的域名，保存。最后运行<code>hexo g</code>、<code>hexo d</code>上传到github。</p><h2 id="备份博客源文件"><a href="#备份博客源文件" class="headerlink" title="备份博客源文件"></a>备份博客源文件</h2><p>有时候我们想换一台电脑继续写博客，这时候就可以将博客目录下的所有源文件都上传到github上面。</p><p>首先在<code>github</code>博客仓库下新建一个分支<code>hexo</code>，然后<code>git clone</code>到本地，把.git文件夹拿出来，放在博客根目录下。</p><p>然后<code>git checkout hexo</code>切换到hexo分支，然后<code>git add</code> .，然后<code>git commit -m "xxx"</code>，最后<code>git push origin hexo</code>提交就行了。</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="重要的事情"><a href="#重要的事情" class="headerlink" title="重要的事情"></a><strong>重要的事情</strong></h2><p><em><strong>因为国家某重要会议即将召开，所有机场的中转都不太好用</strong></em></p><p><em><strong>因为国家某重要会议即将召开，所有机场的中转都不太好用</strong></em></p><p><em><strong>因为国家某重要会议即将召开，所有机场的中转都不太好用</strong></em></p><p>所以只找了几个直连机场</p><h2 id="低价直连机场推荐（文章借鉴于这-https-www-duangks-com-）"><a href="#低价直连机场推荐（文章借鉴于这-https-www-duangks-com-）" class="headerlink" title="低价直连机场推荐（文章借鉴于这](https://www.duangks.com/)）"></a>低价直连机场推荐（文章借鉴于这](<a href="https://www.duangks.com/)%EF%BC%89">https://www.duangks.com/)）</a></h2><h3 id="推荐1-大机场：4-99元1T，三网直连高速机场"><a href="#推荐1-大机场：4-99元1T，三网直连高速机场" class="headerlink" title="推荐1 大机场：4.99元1T，三网直连高速机场"></a>推荐1 大机场：4.99元1T，三网直连高速机场</h3><p>他家移动/联通用非常快，当然用的人太多了，节点死的比较快，但是速度真不错。</p><p><a href="https://大机场.company/#/register?code=v4bSLfz6">链接</a></p><h3 id="推荐2-一元机场-11元一年每月500G流量-解锁流媒体-月抛"><a href="#推荐2-一元机场-11元一年每月500G流量-解锁流媒体-月抛" class="headerlink" title="推荐2 一元机场:11元一年每月500G流量 解锁流媒体 月抛"></a>推荐2 一元机场:11元一年每月500G流量 解锁流媒体 月抛</h3><p>11元/年每月500G的直连套餐，还不错。直连套餐4元4T，很便宜。</p><p><a href="https://一元机场.com/#/register?code=qQpzM176">链接</a></p><h3 id="推荐3-XMRTH：直连机场2元1000G-5元1500G-8元2000G-备用机场"><a href="#推荐3-XMRTH：直连机场2元1000G-5元1500G-8元2000G-备用机场" class="headerlink" title="推荐3 XMRTH：直连机场2元1000G/5元1500G/8元2000G 备用机场"></a>推荐3 XMRTH：直连机场2元1000G/5元1500G/8元2000G 备用机场</h3><p>还提供中转流量，不过很少，备用挺不错的</p><p><a href="https://xmrth.com/">链接</a></p><h3 id="推荐4-nanoport：直连2元1000G"><a href="#推荐4-nanoport：直连2元1000G" class="headerlink" title="推荐4 nanoport：直连2元1000G"></a>推荐4 nanoport：直连2元1000G</h3><p>节点名字很好玩</p><p><a href="https://v3.nanoport.xyz/#/register?code=FcxsgIXe">链接</a></p>]]></content>
       
       
       <categories>
           
-          <category> 博客 </category>
+          <category> 分享 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 基本搭建 </tag>
+            <tag> 翻墙 </tag>
+            
+            <tag> 机场 </tag>
             
         </tags>
       
@@ -42,11 +31,11 @@
     
     
     <entry>
-      <title>clash</title>
-      <link href="/2022/09/06/clash/"/>
-      <url>/2022/09/06/clash/</url>
+      <title>Grasscutters</title>
+      <link href="/2022/09/10/Grasscutters/"/>
+      <url>/2022/09/10/Grasscutters/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="/../images/clash/1.jpg" alt="总览"></p><h1 id="订阅"><a href="#订阅" class="headerlink" title="订阅"></a>订阅</h1><p><img src="/../images/clash/2.jpg" alt="订阅"></p><p>把购买的机场链接复制到这里，点下载就行了。 </p><p>注：有一些有墙，需要自行解决（这时候备用机场的用处就出来了） </p><p><strong>使用前请确保:<br>-账号套餐有效, 没有套餐可以先购买月付试水。<br>-电脑时间和北京时间一致, 如有误差请校准时间,(可以百度”北京时间”对比一下, 不要太自信!)<br>请注意: Clash For Windows(CFW) 比较复杂 但是功能非常强大<br>如果新手实在觉得难, 那么请使用 v2rayN.</strong></p><h1 id="下载-安装-运行下载-安装-运行"><a href="#下载-安装-运行下载-安装-运行" class="headerlink" title="下载, 安装, 运行下载, 安装, 运行"></a>下载, 安装, 运行下载, 安装, 运行</h1><h2 id="方法-1-Github-官方-如果你能上-Github"><a href="#方法-1-Github-官方-如果你能上-Github" class="headerlink" title="方法 1:Github  (官方, 如果你能上 Github)"></a>方法 1:<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">Github</a>  (官方, 如果你能上 Github)</h2><p>##方法 2: 官网本地下载</p><ul><li>右击桌面快捷方式,管理员运行，或者解压后打开文件夹里右击 <code>Clash for Windows.exe</code> 管理员运行。推荐右击 Clash for Windows.exe 发送到-&gt;桌面快捷方式。</li></ul><h1 id="任务栏总开关和软件界面"><a href="#任务栏总开关和软件界面" class="headerlink" title="任务栏总开关和软件界面"></a>任务栏总开关和软件界面</h1><ul><li>软件运行后会在任务栏里显示</li><li>蓝色猫咪 = 未开启网络代理加速,</li><li>米黄色 = 软件已运行, 但是未启网络加速状态</li></ul><h1 id="配置订阅-2-种方式"><a href="#配置订阅-2-种方式" class="headerlink" title="配置订阅 (2 种方式):"></a>配置订阅 (2 种方式):</h1><h2 id="订阅配置-方法-1-热链方法-推荐"><a href="#订阅配置-方法-1-热链方法-推荐" class="headerlink" title="订阅配置 方法 1 (热链方法, 推荐)"></a>订阅配置 方法 1 (热链方法, 推荐)</h2><p> 在 官网 用户中心页面, <strong>快速使用栏目里找到 <code>Clash for Windows</code> 配置一键导入</strong>:<br>点击一下新<strong>出现的 <code>Clash_XXXXXXXXXXX.yaml</code></strong> , 选中的话左边有一条颜色, 就是选择作为为当前配置</p><h2 id="订阅配置-方法-2-拷贝-clash-专属订阅的方法"><a href="#订阅配置-方法-2-拷贝-clash-专属订阅的方法" class="headerlink" title="订阅配置 方法 2 (拷贝 clash 专属订阅的方法)"></a>订阅配置 方法 2 (拷贝 clash 专属订阅的方法)</h2><p><strong><code>方法 1 或 2: 如果配置成功会新增一个 yaml 配置文件:</code></strong></p><h1 id="更新订阅"><a href="#更新订阅" class="headerlink" title="更新订阅"></a>更新订阅</h1><p><strong>请经常更新订阅! 请经常更新订阅! 请经常更新订阅!</strong><br>    ’更新订阅才能和平台同步最新的节点信息, 不然能用的节点会越来越少!‘</p><h2 id="设置自动更新订阅间隔期间："><a href="#设置自动更新订阅间隔期间：" class="headerlink" title="设置自动更新订阅间隔期间："></a>设置自动更新订阅间隔期间：</h2><p><img src="/../images/clash/3.jpg" alt="自动订阅"></p><p><img src="/../images/clash/4.jpg" alt="自动订阅"></p><p><img src="/../images/clash/5.jpg" alt="自动订阅"></p><h2 id="手动更新订阅："><a href="#手动更新订阅：" class="headerlink" title="手动更新订阅："></a>手动更新订阅：</h2><p><img src="/../images/clash/6.jpg" alt="手动订阅"></p><h1 id="重要的一个设置"><a href="#重要的一个设置" class="headerlink" title="重要的一个设置"></a>重要的一个设置</h1><p>最好这个设置下, 方便一键切换节点, 不然每次切换节点需要重启 Clash</p><p><img src="/../images/clash/7.jpg" alt="设置"></p><p><img src="/../images/clash/8.jpg" alt="设置"></p><h1 id="模式介绍和理念"><a href="#模式介绍和理念" class="headerlink" title="模式介绍和理念"></a>模式介绍和理念</h1><h2 id="理念"><a href="#理念" class="headerlink" title="理念"></a>理念</h2><p>​       以往的 VPN 是可以代理各种协议，这使得部分可以正常打开的网站打开缓慢。而到了 ss/v2ray 协议代理的时代，因为是 socks5/http 代理，已经不能像 VPN 一样代理各种网络请求。这也带来了改变的可能。即可通过一定的规则进行流量的分发，从而加快访问速度。分流的意义，初期是为了解决国内 / 国外使用同一网络模式访问缓慢的问题，如挂全局访问国内视频网站等。后来，由于不同的客户端提供了多种多样的分流方法，网上也出现了很多人基于相应制作的规则集。现如今很多人所说的分流已经不仅仅是国内直连，国外代理了某种意义上，折腾分流俨然成了技术活和一部分人的技术象征，他们乐此不疲<br>​     </p><h2 id="模式"><a href="#模式" class="headerlink" title="模式"></a>模式</h2><p><code> Globa</code>: 全局代理 (任何连接都走代理过, 包括国内服务先绕国外再绕回来访问国内内容, 国内内容会很慢)</p><p><code>Rule</code>: 规则代理 (自动判断用户访问的内容是不是需要走代理), 则国内直连, 海外走打理 (按照分类规则)</p><p><code>Direct</code>: 直连 (与 global 相反)</p><hr><p> <code>在国内通常用 RULE 规则模式, 除非 RULE 规则模式打不开你要反问的网站, 再尝试用 GLOBAL. (有可能域名不在预先设置好的规则列表里)</code></p><h2 id="Rule-规则代理"><a href="#Rule-规则代理" class="headerlink" title="Rule: 规则代理:"></a>Rule: 规则代理:</h2><h3 id="例子-1-访问-google-com-谷歌"><a href="#例子-1-访问-google-com-谷歌" class="headerlink" title="例子 1: 访问 google.com 谷歌"></a>例子 1: 访问 google.com 谷歌</h3><p>线路是:<br>浏览器 -&gt; Clash -&gt; 从规则列表里判断 <code>google.com</code>  <code>需要代理</code> -&gt; 国内入口 -&gt; 墙 -&gt; 节点 -&gt; google.com</p><h3 id="例子-2-访问-qq-com-企鹅例子-2-访问-qq-com-企鹅"><a href="#例子-2-访问-qq-com-企鹅例子-2-访问-qq-com-企鹅" class="headerlink" title="例子 2: 访问 qq.com 企鹅例子 2: 访问 qq.com 企鹅"></a>例子 2: 访问 qq.com 企鹅例子 2: 访问 qq.com 企鹅</h3><p>线路是:<br>浏览器 -&gt; Clash -&gt; 从规则列表里判断 <code>qq.com</code>  <code>不需要走代理</code> -&gt; 直接放行 -&gt; 直连 qq.com</p><p> Clash 的配置文件里已经有预先已知需要代理的域名列表了, 但本教程不解释怎么再自己再加域名, 可以上了外网之后自行谷歌 Clash For Windows 的高级教程。本教程以 RULE 为主, 因为 GLOBAL 模式大部分的人平常用不到</p><h1 id="节点检测"><a href="#节点检测" class="headerlink" title="节点检测"></a>节点检测</h1><p>点击<code>WiFi</code>样式图标<br>可以测试所有节点的连通性, 就是可用性 (<strong>非 100%绝对正确, 有时候红色也是可以用的, 这里不解释</strong>):<br> 高延时可以不用理会(受测作者不在国内, 是 国外-&gt;国内-&gt;国外 测试的)<br> 延时低的不代表速度就快, 只能代表线路很大可能是通而且响应快。Clash 的延时不是实际速度, 比如:当你打开水龙头, 打开的那一刻到来水的那段时间可以作为延时来比喻, 但不是来水量.有些水龙头有可能打开要等 1 瞬间才来水, 但是来水量就很大, 水压好量也大有没多少空气，但有些虽然马上就来水了, 但是水量不大。<br> 总结: 不要被 clash 的延时误导, 只能做为线路可用性参考.<br> 要用哪个节点就点击一下, 不知道怎么选择的朋友可以用自动选择器: 自动选择 AUTO<br> (前面一个重要的设置里. 关于 <code>Settings</code>里的 <code>Connection Break</code>, 如果设置了, 可以一键就切换节点)<br> 注意!!!: 自动选择每次测速会切换节点的, 如果你需要固定节点, 那么请手动选择 (比如 facebook 异地登录锁号)</p><h1 id="分流规则-高级设置-老用户"><a href="#分流规则-高级设置-老用户" class="headerlink" title="分流规则(高级设置, 老用户)"></a>分流规则(高级设置, 老用户)</h1><p>本平台已经不用老的 Clash 策列租, 如果需要对 TG, Netflix, Youtube, 进行分流, 那么请拷贝自己的通用订阅用自己<br>喜欢的转换器转成 Clash 新参数.<br>高手请自己编辑策列组, 抱歉.</p><h1 id="推荐的设置"><a href="#推荐的设置" class="headerlink" title="推荐的设置"></a>推荐的设置</h1><p> 开机启动 Clash 推荐不要使用, 会出各种问题, 最好还是需要是再打开 Clash开启网络加速:<br> 电脑右下角任务栏右击 Clash 图标(猫)<br> 开启 <code>System Proxy</code> (总开关)<br> 选择<code> Proxy Mode</code> 为<code> Rule</code> (规则代理模式)，成功的话图标会变米黄色<br> 如果不用了那么关闭 <code>System Proxy</code>, 再退出软件<code> Quit</code>，如果还不行的话, 谷歌浏览器 <code>CTRL + SHIFT + N </code>无痕模式再测试<br> 确保电脑时间和北京时间没有误差(1 分钟以内)</p><h1 id="关于有些-Windows-UWP-应用-windows-应用商店下载的还有-windows-内置的-的软件不被代理的情况"><a href="#关于有些-Windows-UWP-应用-windows-应用商店下载的还有-windows-内置的-的软件不被代理的情况" class="headerlink" title="关于有些 Windows UWP 应用 (windows 应用商店下载的还有 windows 内置的)的软件不被代理的情况:"></a>关于有些 Windows UWP 应用 (windows 应用商店下载的还有 windows 内置的)的软件不被代理的情况:</h1><p>由于这些软件系统默认不让被代理需要去 Clash 的 <code>General</code>常用常规里, 点击 <code>UWP Lookback</code>, 选择需要代理的软件</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一、要有一个客户端"><a href="#一、要有一个客户端" class="headerlink" title="一、要有一个客户端"></a>一、要有一个客户端</h2><p>若你想玩当前版本，请用官方的客户端，<br>如果你想玩超前或者之前版本的，请点击下面这个链接找到你所需的客户端版本<a href="https://github.com/kyou-nase/GI-Download-Library">genshin-inpact downlinks</a></p><hr><h2 id="二、请下载对应版本的补丁（2-8以前的版本可以不用）"><a href="#二、请下载对应版本的补丁（2-8以前的版本可以不用）" class="headerlink" title="二、请下载对应版本的补丁（2.8以前的版本可以不用）"></a>二、请下载对应版本的补丁（2.8以前的版本可以不用）</h2><p>补丁是核心，出现代码4214报错的都是补丁没打或者没有打好<br><a href="https://gblhgk.com/k1t6C">2.8补丁下载</a></p><hr><h2 id="三、需要安装以下必备软件"><a href="#三、需要安装以下必备软件" class="headerlink" title="三、需要安装以下必备软件"></a>三、需要安装以下必备软件</h2><ul><li><a href="https://gblhgk.com/gNCAa">MongoDB</a>：这个是数据库</li><li><a href="https://sjmwsw.com/upVqJ">phython</a>：环境</li><li><a href="https://gblhgk.com/mq3Lh">java17</a>：环境</li><li>代理软件：这里我推荐用<a href="https://sjmwsw.com/6F7MP">genshin代理助手</a>（即小可莉图标），无需安装证书，小白狂喜。</li></ul><hr><h2 id="四、需要一个服务端，即grasscutters"><a href="#四、需要一个服务端，即grasscutters" class="headerlink" title="四、需要一个服务端，即grasscutters"></a>四、需要一个服务端，即grasscutters</h2><p>这里只提供2.8版本的服务端，当前甚至超前的请加群或使用搜索引擎搜索<br><a href="https://sjmwsw.com/Auu0J">网盘地址</a></p><hr><h2 id="五、链接客户端"><a href="#五、链接客户端" class="headerlink" title="五、链接客户端"></a>五、链接客户端</h2><h3 id="打开顺序：MongoDB→服务端→genshin代理助手→客户端"><a href="#打开顺序：MongoDB→服务端→genshin代理助手→客户端" class="headerlink" title="打开顺序：MongoDB→服务端→genshin代理助手→客户端"></a>打开顺序：MongoDB→服务端→genshin代理助手→客户端</h3><p>注意：如果在本地打开客服务端，代理助手的填写应如下：<br>地址：<code>127.0.0.1</code><br>端口：<code>443</code></p>]]></content>
       
       
       <categories>
@@ -58,26 +47,11 @@
       
         <tags>
             
-            <tag> clash for windows </tag>
+            <tag> 原神 </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>密码测试（来猜猜看吧）</title>
-      <link href="/2022/09/04/%E5%AF%86%E7%A0%81%E6%B5%8B%E8%AF%95/"/>
-      <url>/2022/09/04/%E5%AF%86%E7%A0%81%E6%B5%8B%E8%AF%95/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
-      
-      
-      
-        <tags>
+            <tag> 私服 </tag>
             
-            <tag> 测试 </tag>
+            <tag> Grasscutters </tag>
             
         </tags>
       
@@ -95,14 +69,99 @@
       
       <categories>
           
-          <category> grasscutter </category>
+          <category> 文件分享 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 文件 </tag>
+            <tag> 原神 </tag>
+            
+            <tag> 私服 </tag>
+            
+            <tag> Grasscutter </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>clash进阶</title>
+      <link href="/2021/02/03/clash%E8%BF%9B%E9%98%B6/"/>
+      <url>/2021/02/03/clash%E8%BF%9B%E9%98%B6/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="/../images/clash/1.jpg" alt="总览"></p><h1 id="订阅"><a href="#订阅" class="headerlink" title="订阅"></a>订阅</h1><p><img src="/../images/clash/2.jpg" alt="订阅"></p><p>把购买的机场链接复制到这里，点下载就行了。 </p><p>注：有一些有墙，需要自行解决（这时候备用机场的用处就出来了） </p><p><strong>使用前请确保:<br>-账号套餐有效, 没有套餐可以先购买月付试水。<br>-电脑时间和北京时间一致, 如有误差请校准时间,(可以百度”北京时间”对比一下, 不要太自信!)<br>请注意: Clash For Windows(CFW) 比较复杂 但是功能非常强大<br>如果新手实在觉得难, 那么请使用 v2rayN.</strong></p><h1 id="下载-安装-运行下载-安装-运行"><a href="#下载-安装-运行下载-安装-运行" class="headerlink" title="下载, 安装, 运行下载, 安装, 运行"></a>下载, 安装, 运行下载, 安装, 运行</h1><h2 id="方法-1-Github-官方-如果你能上-Github"><a href="#方法-1-Github-官方-如果你能上-Github" class="headerlink" title="方法 1:Github  (官方, 如果你能上 Github)"></a>方法 1:<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">Github</a>  (官方, 如果你能上 Github)</h2><p>##方法 2: 官网本地下载</p><ul><li>右击桌面快捷方式,管理员运行，或者解压后打开文件夹里右击 <code>Clash for Windows.exe</code> 管理员运行。推荐右击 Clash for Windows.exe 发送到-&gt;桌面快捷方式。</li></ul><h1 id="任务栏总开关和软件界面"><a href="#任务栏总开关和软件界面" class="headerlink" title="任务栏总开关和软件界面"></a>任务栏总开关和软件界面</h1><ul><li>软件运行后会在任务栏里显示</li><li>蓝色猫咪 = 未开启网络代理加速,</li><li>米黄色 = 软件已运行, 但是未启网络加速状态</li></ul><h1 id="配置订阅-2-种方式"><a href="#配置订阅-2-种方式" class="headerlink" title="配置订阅 (2 种方式):"></a>配置订阅 (2 种方式):</h1><h2 id="订阅配置-方法-1-热链方法-推荐"><a href="#订阅配置-方法-1-热链方法-推荐" class="headerlink" title="订阅配置 方法 1 (热链方法, 推荐)"></a>订阅配置 方法 1 (热链方法, 推荐)</h2><p> 在 官网 用户中心页面, <strong>快速使用栏目里找到 <code>Clash for Windows</code> 配置一键导入</strong>:<br>点击一下新<strong>出现的 <code>Clash_XXXXXXXXXXX.yaml</code></strong> , 选中的话左边有一条颜色, 就是选择作为为当前配置</p><h2 id="订阅配置-方法-2-拷贝-clash-专属订阅的方法"><a href="#订阅配置-方法-2-拷贝-clash-专属订阅的方法" class="headerlink" title="订阅配置 方法 2 (拷贝 clash 专属订阅的方法)"></a>订阅配置 方法 2 (拷贝 clash 专属订阅的方法)</h2><p><strong><code>方法 1 或 2: 如果配置成功会新增一个 yaml 配置文件:</code></strong></p><h1 id="更新订阅"><a href="#更新订阅" class="headerlink" title="更新订阅"></a>更新订阅</h1><p><strong>请经常更新订阅! 请经常更新订阅! 请经常更新订阅!</strong><br>    ’更新订阅才能和平台同步最新的节点信息, 不然能用的节点会越来越少!‘</p><h2 id="设置自动更新订阅间隔期间："><a href="#设置自动更新订阅间隔期间：" class="headerlink" title="设置自动更新订阅间隔期间："></a>设置自动更新订阅间隔期间：</h2><p><img src="/../images/clash/3.jpg" alt="自动订阅"></p><p><img src="/../images/clash/4.jpg" alt="自动订阅"></p><p><img src="/../images/clash/5.jpg" alt="自动订阅"></p><h2 id="手动更新订阅："><a href="#手动更新订阅：" class="headerlink" title="手动更新订阅："></a>手动更新订阅：</h2><p><img src="/../images/clash/6.jpg" alt="手动订阅"></p><h1 id="重要的一个设置"><a href="#重要的一个设置" class="headerlink" title="重要的一个设置"></a>重要的一个设置</h1><p>最好这个设置下, 方便一键切换节点, 不然每次切换节点需要重启 Clash</p><p><img src="/../images/clash/7.jpg" alt="设置"></p><p><img src="/../images/clash/8.jpg" alt="设置"></p><h1 id="模式介绍和理念"><a href="#模式介绍和理念" class="headerlink" title="模式介绍和理念"></a>模式介绍和理念</h1><h2 id="理念"><a href="#理念" class="headerlink" title="理念"></a>理念</h2><p>​       以往的 VPN 是可以代理各种协议，这使得部分可以正常打开的网站打开缓慢。而到了 ss/v2ray 协议代理的时代，因为是 socks5/http 代理，已经不能像 VPN 一样代理各种网络请求。这也带来了改变的可能。即可通过一定的规则进行流量的分发，从而加快访问速度。分流的意义，初期是为了解决国内 / 国外使用同一网络模式访问缓慢的问题，如挂全局访问国内视频网站等。后来，由于不同的客户端提供了多种多样的分流方法，网上也出现了很多人基于相应制作的规则集。现如今很多人所说的分流已经不仅仅是国内直连，国外代理了某种意义上，折腾分流俨然成了技术活和一部分人的技术象征，他们乐此不疲<br>​     </p><h2 id="模式"><a href="#模式" class="headerlink" title="模式"></a>模式</h2><p><code> Globa</code>: 全局代理 (任何连接都走代理过, 包括国内服务先绕国外再绕回来访问国内内容, 国内内容会很慢)</p><p><code>Rule</code>: 规则代理 (自动判断用户访问的内容是不是需要走代理), 则国内直连, 海外走打理 (按照分类规则)</p><p><code>Direct</code>: 直连 (与 global 相反)</p><hr><p> <code>在国内通常用 RULE 规则模式, 除非 RULE 规则模式打不开你要反问的网站, 再尝试用 GLOBAL. (有可能域名不在预先设置好的规则列表里)</code></p><h2 id="Rule-规则代理"><a href="#Rule-规则代理" class="headerlink" title="Rule: 规则代理:"></a>Rule: 规则代理:</h2><h3 id="例子-1-访问-google-com-谷歌"><a href="#例子-1-访问-google-com-谷歌" class="headerlink" title="例子 1: 访问 google.com 谷歌"></a>例子 1: 访问 google.com 谷歌</h3><p>线路是:<br>浏览器 -&gt; Clash -&gt; 从规则列表里判断 <code>google.com</code>  <code>需要代理</code> -&gt; 国内入口 -&gt; 墙 -&gt; 节点 -&gt; google.com</p><h3 id="例子-2-访问-qq-com-企鹅例子-2-访问-qq-com-企鹅"><a href="#例子-2-访问-qq-com-企鹅例子-2-访问-qq-com-企鹅" class="headerlink" title="例子 2: 访问 qq.com 企鹅例子 2: 访问 qq.com 企鹅"></a>例子 2: 访问 qq.com 企鹅例子 2: 访问 qq.com 企鹅</h3><p>线路是:<br>浏览器 -&gt; Clash -&gt; 从规则列表里判断 <code>qq.com</code>  <code>不需要走代理</code> -&gt; 直接放行 -&gt; 直连 qq.com</p><p> Clash 的配置文件里已经有预先已知需要代理的域名列表了, 但本教程不解释怎么再自己再加域名, 可以上了外网之后自行谷歌 Clash For Windows 的高级教程。本教程以 RULE 为主, 因为 GLOBAL 模式大部分的人平常用不到</p><h1 id="节点检测"><a href="#节点检测" class="headerlink" title="节点检测"></a>节点检测</h1><p>点击<code>WiFi</code>样式图标<br>可以测试所有节点的连通性, 就是可用性 (<strong>非 100%绝对正确, 有时候红色也是可以用的, 这里不解释</strong>):<br> 高延时可以不用理会(受测作者不在国内, 是 国外-&gt;国内-&gt;国外 测试的)<br> 延时低的不代表速度就快, 只能代表线路很大可能是通而且响应快。Clash 的延时不是实际速度, 比如:当你打开水龙头, 打开的那一刻到来水的那段时间可以作为延时来比喻, 但不是来水量.有些水龙头有可能打开要等 1 瞬间才来水, 但是来水量就很大, 水压好量也大有没多少空气，但有些虽然马上就来水了, 但是水量不大。<br> 总结: 不要被 clash 的延时误导, 只能做为线路可用性参考.<br> 要用哪个节点就点击一下, 不知道怎么选择的朋友可以用自动选择器: 自动选择 AUTO<br> (前面一个重要的设置里. 关于 <code>Settings</code>里的 <code>Connection Break</code>, 如果设置了, 可以一键就切换节点)<br> 注意!!!: 自动选择每次测速会切换节点的, 如果你需要固定节点, 那么请手动选择 (比如 facebook 异地登录锁号)</p><h1 id="分流规则-高级设置-老用户"><a href="#分流规则-高级设置-老用户" class="headerlink" title="分流规则(高级设置, 老用户)"></a>分流规则(高级设置, 老用户)</h1><p>本平台已经不用老的 Clash 策列租, 如果需要对 TG, Netflix, Youtube, 进行分流, 那么请拷贝自己的通用订阅用自己<br>喜欢的转换器转成 Clash 新参数.<br>高手请自己编辑策列组, 抱歉.</p><h1 id="推荐的设置"><a href="#推荐的设置" class="headerlink" title="推荐的设置"></a>推荐的设置</h1><p> 开机启动 Clash 推荐不要使用, 会出各种问题, 最好还是需要是再打开 Clash开启网络加速:<br> 电脑右下角任务栏右击 Clash 图标(猫)<br> 开启 <code>System Proxy</code> (总开关)<br> 选择<code> Proxy Mode</code> 为<code> Rule</code> (规则代理模式)，成功的话图标会变米黄色<br> 如果不用了那么关闭 <code>System Proxy</code>, 再退出软件<code> Quit</code>，如果还不行的话, 谷歌浏览器 <code>CTRL + SHIFT + N </code>无痕模式再测试<br> 确保电脑时间和北京时间没有误差(1 分钟以内)</p><h1 id="关于有些-Windows-UWP-应用-windows-应用商店下载的还有-windows-内置的-的软件不被代理的情况"><a href="#关于有些-Windows-UWP-应用-windows-应用商店下载的还有-windows-内置的-的软件不被代理的情况" class="headerlink" title="关于有些 Windows UWP 应用 (windows 应用商店下载的还有 windows 内置的)的软件不被代理的情况:"></a>关于有些 Windows UWP 应用 (windows 应用商店下载的还有 windows 内置的)的软件不被代理的情况:</h1><p>由于这些软件系统默认不让被代理需要去 Clash 的 <code>General</code>常用常规里, 点击 <code>UWP Lookback</code>, 选择需要代理的软件</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> clash for windows </tag>
+            
+            <tag> 翻墙 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>clash总览</title>
+      <link href="/2021/01/28/clash%E6%80%BB%E8%A7%88/"/>
+      <url>/2021/01/28/clash%E6%80%BB%E8%A7%88/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="/../images/clash%E6%80%BB%E8%A7%88/31f66659ae74d916e415560cfdc9ef68.jpg" alt="界面显示如上"></p><p><code>General（常规）</code> </p><p><code>Port、Socks Port</code>；分别为 HTTP、SOCKS 代理端口，点击终端图案可以打开一个配置了代理的命令行窗口，点击端口数字可以复制该命令； </p><p><code>Allow LAN</code>：启用局域网共享代理功能； </p><p><code>Log Level</code>：日志等级； </p><p><code>Home Directory</code>：点击下方路径直达 C:\Users\用户名.config\clash 文件夹； </p><p><code>GeoIP Database</code>：点击下方日期可更新 GeoIP 数据库； </p><p><code>WP Loopback</code> ：可以用来使 UWP 应用解除回环代理限制； </p><p><code>Tap Device</code> ：安装 cfw-tap 网卡，可用于处理不遵循系统代理的软件（实际启动 tap 模式需要更改配置文件）； </p><p><code>General YML</code>：编辑 config.yml 文件，可用于配置部分 General 页面内容； </p><p><code>Dark Theme</code>：控制暗色模式； </p><p><code>System Proxy</code>：启用系统代理； </p><p><code>Start with Windows</code>：设置开机自启；<code>Proxies（代理）</code> </p><p>选择代理方式（Global - 全局、Rule - 规则、Direct - 直连）及策略组节点选择； </p><p><code>Profiles（配置管理）</code> </p><p>·用来下载远端配置文件和创建本地副本，且可在多个配置文件间切换 </p><p>·对配置进行节点、策略组和规则的管理（添加节点、策略组和规则在各自编辑界面选择 <code>Add</code>, 调整策略组顺序、节点顺序及策略组节点使用拖拽的方式）；<code>Logs（日志）</code> </p><p>显示当前请求命中规则类型和策略； </p><p><code>Connections (连接)</code> </p><p>显示当前的 TCP 连接，可对某个具体连接执行关闭操作； </p><p><code>Feedback（反馈）</code> </p><p>显示软件、作者相关信息，内含捐赠码，欢迎打赏。 </p><p>或者使用汉化版本 </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> clash for windows </tag>
+            
+            <tag> 翻墙 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>github+hexo博客搭建</title>
+      <link href="/2020/11/09/github-hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <url>/2020/11/09/github-hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="环境和github仓库创建"><a href="#环境和github仓库创建" class="headerlink" title="环境和github仓库创建"></a>环境和github仓库创建</h1><h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><p>首先下载稳定版<a href="">Node.js</a>，我这里给的是64位的。</p><p>安装选项全部默认，一路点击<code>Next</code>。</p><p>最后安装好之后，按<code>Win+R</code>打开命令提示符，输入<code>node -v</code>和<code>npm -v</code>，如果出现版本号，那么就安装成功了。</p><p>添加国内镜像源<br>如果没有梯子的话，可以使用阿里的国内镜像进行加速。</p><pre><code> npm config set registry https://registry.npm.taobao.org</code></pre><hr><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>为了把本地的网页文件上传到github上面去，我们需要用到分布式版本控制工具————Git<a href="">下载地址</a>。</p><p>安装选项还是全部默认，只不过最后一步添加路径时选择<code>Use Git from the Windows Command Prompt</code>，这样我们就可以直接在命令提示符里打开git了。</p><p>安装完成后在命令提示符中输入<code>git --version</code>验证是否安装成功。</p><h2 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册Github账号</h2><p>接下来就去注册一个github账号，用来存放我们的网站。大多数小伙伴应该都有了吧，作为一个合格的程序猿（媛）还是要有一个的。</p><p>打开<a href="https://github.com/">这里</a>，新建一个项目，如下所示：</p><p>然后如下图所示，输入自己的项目名字，后面一定要加<code>.github.io</code>后缀，README初始化也要勾上。<strong>名称一定要和你的github名字完全一样</strong>，比如你github名字叫<code>abc</code>，那么仓库名字一定要是<code>abc.github.io</code>。</p><p>然后项目就建成了，点击<code>Settings</code>，向下拉到最后有个<code>GitHub Pages</code>，点击<code>Choose a theme</code>选择一个主题。然后等一会儿，再回到<code>GitHub Pages</code>，会变成下面这样：</p><p>点击那个链接，就会出现自己的网页啦，效果如下：</p><h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><p>在合适的地方新建一个文件夹，用来存放自己的博客文件，比如我的博客文件都存放在D:\study\program\blog目录下。</p><p>在该目录下右键点击·<code>Git Bash Here</code>，打开git的控制台窗口，以后我们所有的操作都在git控制台进行，就不要用Windows自带的控制台了。</p><p>定位到该目录下，输入<code>npm i hexo-cli -g</code>安装Hexo。会有几个报错，无视它就行。</p><p>安装完后输入<code>hexo -v</code>验证是否安装成功。</p><p>然后就要初始化我们的网站，输入<code>hexo init</code>初始化文件夹，接着输入<code>npm install</code>安装必备的组件。</p><p>这样本地的网站配置也弄好啦，输入<code>hexo g</code>生成静态网页，然后输入<code>hexo s</code>打开本地服务器，然后浏览器打开<code>http://localhost:4000/</code>，就可以看到我们的博客啦，效果如下：</p><p>按<code>ctrl+C</code>关闭本地服务器。</p><p>连接Github与本地<br>首先右键打开git bash，然后输入下面命令：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"你的github名字"</span></span><br><span class="line">git config --global user.email <span class="string">"你创建github所用的邮箱"</span></span><br></pre></td></tr></tbody></table></figure><p>用户名和邮箱根据你注册github的信息自行修改。</p><p>然后生成密钥SSH key：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"你创建github所用的邮箱"</span></span><br></pre></td></tr></tbody></table></figure><p>打开github，在头像下面点击settings，再点击SSH and GPG keys，新建一个SSH，名字随便。</p><p>git bash中输入</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cat</span> ~/.ssh/id_rsa.pub</span><br></pre></td></tr></tbody></table></figure><p>将输出的内容复制到框中，点击确定保存。</p><p>输入<code>ssh -T git@github.com</code>，如果如下图所示，出现你的用户名，那就成功了。</p><p>打开博客根目录下的_config.yml文件，这是博客的配置文件，在这里你可以修改与博客相关的各种信息。</p><h2 id="修改最后一行的配置："><a href="#修改最后一行的配置：" class="headerlink" title="修改最后一行的配置："></a>修改最后一行的配置：</h2><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">   <span class="built_in">type</span>: git</span><br><span class="line">   repository: https://github.com/你的github名字/你的github名字.github.io</span><br><span class="line">   branch: master</span><br></pre></td></tr></tbody></table></figure><h2 id="写文章、发布文章"><a href="#写文章、发布文章" class="headerlink" title="写文章、发布文章"></a>写文章、发布文章</h2><p>首先在博客根目录下右键打开<code>git bash</code>，安装一个扩展<code>npm i hexo-deployer-git</code>。</p><p>然后输入<code>hexo new post "article title"</code>，新建一篇文章。</p><p>然后打开<code>D:\study\program\blog\source\_posts</code>的目录，可以发现下面多了一个文件夹和一个<code>.md</code>文件，一个用来存放你的图片等数据，另一个就是你的文章文件啦。</p><p>编写完markdown文件后，根目录下输入<code>hexo g</code>生成静态网页，然后输入<code>hexo s</code>可以本地预览效果，最后输入<code>hexo d</code>上传到github上。这时打开你的github.io主页就能看到发布的文章啦。</p><h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>现在默认的域名还是xxx.github.io，是不是很没有牌面？想不想弄一个专属域名呢？首先你得购买一个域名，xx云都能买，看你个人喜好了。</p><p>然后打开你的<code>github</code>博客项目，点击<code>settings</code>，拉到下面<code>Custom domain</code>处，填上你自己的域名，保存：</p><p>这时候你的项目根目录应该会出现一个名为<code>CNAME</code>的文件了。如果没有的话，打开你本地博客<code>/source目录</code>，我的是<code>D:\study\program\blog\source</code>，新建<code>CNAME</code>文件，注意没有后缀。然后在里面写上你的域名，保存。最后运行<code>hexo g</code>、<code>hexo d</code>上传到github。</p><h2 id="备份博客源文件"><a href="#备份博客源文件" class="headerlink" title="备份博客源文件"></a>备份博客源文件</h2><p>有时候我们想换一台电脑继续写博客，这时候就可以将博客目录下的所有源文件都上传到github上面。</p><p>首先在<code>github</code>博客仓库下新建一个分支<code>hexo</code>，然后<code>git clone</code>到本地，把.git文件夹拿出来，放在博客根目录下。</p><p>然后<code>git checkout hexo</code>切换到hexo分支，然后<code>git add</code> .，然后<code>git commit -m "xxx"</code>，最后<code>git push origin hexo</code>提交就行了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客搭建 </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       
@@ -115,7 +174,7 @@
       <link href="/2020/09/06/%E8%BF%9B%E7%AB%99%E5%BF%85%E7%9C%8B/"/>
       <url>/2020/09/06/%E8%BF%9B%E7%AB%99%E5%BF%85%E7%9C%8B/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="欢迎来到我的blog"><a href="#欢迎来到我的blog" class="headerlink" title="欢迎来到我的blog"></a>欢迎来到我的blog</h1><h2 id="此blog主要发布什么？"><a href="#此blog主要发布什么？" class="headerlink" title="此blog主要发布什么？"></a><strong>此blog主要发布什么？</strong></h2><ul><li>日常和闲言碎语。</li><li>爱好分享。</li><li>分类上带着memory的有密码，别试了，你猜不出来的。</li></ul><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a><strong>关于我</strong></h2><p>一个高三狗，咸鱼一个，为了高考正在冲刺，目前站点不会频繁更新与维修。</p><h2 id="有关评论"><a href="#有关评论" class="headerlink" title="有关评论"></a><strong>有关评论</strong></h2><h3 id="1、尽量在评论时写上你的名字，如想匿名吐槽请到留言板。"><a href="#1、尽量在评论时写上你的名字，如想匿名吐槽请到留言板。" class="headerlink" title="1、尽量在评论时写上你的名字，如想匿名吐槽请到留言板。"></a>1、尽量在评论时写上你的名字，如想匿名吐槽请到留言板。</h3><h3 id="2、关于评论时的头像"><a href="#2、关于评论时的头像" class="headerlink" title="2、关于评论时的头像"></a>2、关于评论时的头像</h3><p>1、进入gravatar用你的邮箱注册一个账号</p><p><a href="https://en.gravatar.com/">gravatar</a></p><p>2、上传你的头像，等待2~3天的审核时间</p><p>3、在评论的邮箱加上你注册时候的邮箱就可以显示你的头像啦</p><p>注：该网站在国内访问极慢，有能力的挂魔法</p><h3 id="3、在留言板处可以实名吐槽，也可匿名，欢迎开怼"><a href="#3、在留言板处可以实名吐槽，也可匿名，欢迎开怼" class="headerlink" title="3、在留言板处可以实名吐槽，也可匿名，欢迎开怼"></a>3、在留言板处可以实名吐槽，也可匿名，欢迎开怼</h3>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="欢迎来到我的blog"><a href="#欢迎来到我的blog" class="headerlink" title="欢迎来到我的blog"></a>欢迎来到我的blog</h1><h2 id="此blog主要发布什么？"><a href="#此blog主要发布什么？" class="headerlink" title="此blog主要发布什么？"></a><strong>此blog主要发布什么？</strong></h2><ul><li>日常和闲言碎语。</li><li>爱好分享。</li></ul><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a><strong>关于我</strong></h2><p>一个高三狗，咸鱼一个，为了高考正在冲刺，目前站点不会频繁更新与维修。</p><h2 id="有关评论"><a href="#有关评论" class="headerlink" title="有关评论"></a><strong>有关评论</strong></h2><h3 id="1、尽量在评论时写上你的名字，如想匿名吐槽请到留言板。"><a href="#1、尽量在评论时写上你的名字，如想匿名吐槽请到留言板。" class="headerlink" title="1、尽量在评论时写上你的名字，如想匿名吐槽请到留言板。"></a>1、尽量在评论时写上你的名字，如想匿名吐槽请到留言板。</h3><h3 id="2、关于评论时的头像"><a href="#2、关于评论时的头像" class="headerlink" title="2、关于评论时的头像"></a>2、关于评论时的头像</h3><p>1、进入gravatar用你的邮箱注册一个账号</p><p><a href="https://en.gravatar.com/">gravatar</a></p><p>2、上传你的头像，等待2~3天的审核时间</p><p>3、在评论的邮箱加上你注册时候的邮箱就可以显示你的头像啦</p><p>注：该网站在国内访问极慢，有能力的挂魔法</p><h3 id="3、在留言板处可以实名吐槽，也可匿名，欢迎开怼"><a href="#3、在留言板处可以实名吐槽，也可匿名，欢迎开怼" class="headerlink" title="3、在留言板处可以实名吐槽，也可匿名，欢迎开怼"></a>3、在留言板处可以实名吐槽，也可匿名，欢迎开怼</h3>]]></content>
       
       
       
